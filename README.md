@@ -39,8 +39,6 @@ source("DifferentAlgorithmsTested.R")
 
 Use a dedicated R session: the script clears the environment at startup. It uses seed `1234`, produces plots, and stores the comparison in `matr_metrics`. Package versions from 2021 were not recorded.
 
-**Original modeling logic preserved:** formatting and dataset paths were cleaned up, and a stray summary call was removed. Known issues remain in the kNN and tree-pruning blocks. Recall refers to class 0; ROC AUC uses hard predictions. This is an archive of the exam work, not a corrected pipeline.
-
 ## Dataset Reference
 
 [UCI Heart Failure Clinical Records](https://archive.ics.uci.edu/dataset/519/heart+failure+clinical+records), also discussed by [Chicco and Jurman (2020)](https://doi.org/10.1186/s12911-020-1023-5). The data remains subject to its original terms.
